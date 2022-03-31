@@ -4,7 +4,7 @@ const socket = io("https://checkersdb.herokuapp.com/", {
   reconnection: false,
 });
 socket.on("connect", () => {
-  // console.log("connected");
+  console.log("connected");
 });
 window.onload = function () {
   const gameState = localStorage.getItem("gameState");
