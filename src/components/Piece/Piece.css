@@ -1,0 +1,22 @@
+.piece {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition: 0.3s ease-in-out;
+}
+.piece--clicked {
+  border: 3px solid rgb(145, 145, 250) !important;
+  border-radius: 15%;
+}
+.piece--canKill {
+  border: 3px solid rgb(86, 212, 243);
+  border-radius: 15%;
+}
+.piece--king {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+}
